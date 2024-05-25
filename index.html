@@ -64,10 +64,10 @@
       <nav>
         <p>Gestión de proyectos</p>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Miembros</a></li>
-          <li><a href="#">Reportes</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="miembros.html">Miembros</a></li>
+          <li><a href="reportes.html">Reportes</a></li>
         </ul>
         <button class="hamburger-menu">
           <img
@@ -80,14 +80,13 @@
     </header>
 
     <aside>
-      <h3>Proyectos</h3>
-      <ul>
-        <li><a href="index.html">Proyecto 1</a></li>
-        <li><a href="index.html">Proyecto 2</a></li>
-        <li><a href="index.html">Proyecto 3</a></li>
-        <li><a href="index.html">Proyecto 4</a></li>
-        <li><a href="index.html">Proyecto 5</a></li>
-      </ul>
+
+      <h3>Proyectos>
+        <a class="agregar" href="nuevo-proyecto.html">Agregar proyecto</a>
+
+      </h3>
+      <h3>Proyecto</h3>
+      <ul id="proyecto" ></ul>
     </aside>
 
     <main>
@@ -168,5 +167,6 @@
         aside.style.display = 'none';
       });
     </script>
+    <script src = "js/proyecto.js"></script>
   </body>
 </html>

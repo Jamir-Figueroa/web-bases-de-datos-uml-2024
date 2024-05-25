@@ -5,7 +5,7 @@ usando la notación var(--nombre-variable)
 */
 
 :root {
-    --color-primario: #f95d09;
+    --color-primario: #7126a2;
     --color-sombra: #e5e5e5;
     --color-terciario: #33333340;
 }
@@ -199,11 +199,32 @@ footer {
     cursor: pointer;
 }
 
+.agregar {
+    display: block;
+    background-color:var(--color-primario) ;
+    padding: 10px;
+    border-radius: 10px;
+    color: #e5e5e5;
+    box-shadow: 0 5px 10px 4px;
+}
+.agregar:hover {
+    background: #aa691e40;
+    cursor:pointer;
+}
+
 button {
     background-color: transparent;
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.btn-Guardar {
+    background-color: #7126a2;
+    color: #e5e5e5;
+    padding: 10px;
+    border: none;
+    margin-top: 25px ;
 }
 
 /*
